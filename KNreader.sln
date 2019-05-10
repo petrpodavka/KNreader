@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KNreader", "KNreader\KNreader.csproj", "{056FC300-CD14-4951-AD9F-D48B4ED8DFA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KNmapper", "KNmapper\KNmapper.csproj", "{DBD87CE2-3B5B-4CC7-B27B-68C2027E0D1F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{056FC300-CD14-4951-AD9F-D48B4ED8DFA8} = {056FC300-CD14-4951-AD9F-D48B4ED8DFA8}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{056FC300-CD14-4951-AD9F-D48B4ED8DFA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056FC300-CD14-4951-AD9F-D48B4ED8DFA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056FC300-CD14-4951-AD9F-D48B4ED8DFA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056FC300-CD14-4951-AD9F-D48B4ED8DFA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD87CE2-3B5B-4CC7-B27B-68C2027E0D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD87CE2-3B5B-4CC7-B27B-68C2027E0D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD87CE2-3B5B-4CC7-B27B-68C2027E0D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD87CE2-3B5B-4CC7-B27B-68C2027E0D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF48B7DD-6B02-4513-B298-A26789B16BE3}
+	EndGlobalSection
+EndGlobal
